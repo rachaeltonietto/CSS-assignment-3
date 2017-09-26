@@ -5,7 +5,7 @@
 body {
   background: #b3dbe8;
   color: #000;
-  font-family: sans-serif; /*   add fonts   */
+  font-family: "Encode Sans Expanded", Tahoma, sans-serif; /*   add fonts   */
 }
 
 
@@ -47,7 +47,7 @@ aside {
 
 h1, h2 {
   margin: 0;
-  font-family: serif; /*   add fonts   */
+  font-family: "Playfair Display", Palatino, serif; /*   add fonts   */
 }
 
 article h1 {
@@ -113,5 +113,27 @@ aside a:hover {
   clear: both;
 }
 
-
 /* put your media queries below */
+
+@media (max-width: 600px) {
+   article {
+     float: none;
+     width: 100%;
+     margin: 0;
+   }
+   aside {
+     float: none;
+     width: 100%;
+     margin: 0;
+   }
+  #top-image-container {
+    display: none;
+  }
+  #container {
+    margin: 0;
+  }
+  #sidebar2 {
+    margin: 0;
+  }
+
+}
